@@ -79,7 +79,7 @@ jobs:
       uses: azure/arm-deploy@v1
       with:
         subscriptionId: ${{ env.SUBSCRIPTION-ID }}
-        resourceGroupName: ${{ env.rg-az400-eshoponweb-SINDHU }}
+        resourceGroupName: ${{ env.rg-az400-eshoponweb-sindhu }}
         template: bicep-template/webapp.bicep
         parameters: 'webAppName=${{ env.WEBAPP-NAME }} location=${{ env.eastus }}'
         failOnStdErr: false   
