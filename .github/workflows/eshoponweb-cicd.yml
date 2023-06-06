@@ -9,7 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 3e212c93-6af3-4a6a-a10e-9cb9240f51f3
-  WEBAPP-NAME: az400-webapp-SINDHU
+  WEBAPP-NAME: az400-webapp-Sindhu
 
 
 jobs:
